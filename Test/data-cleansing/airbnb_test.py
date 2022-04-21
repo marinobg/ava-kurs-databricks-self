@@ -36,6 +36,7 @@ columns_to_keep = [
   "latitude", "belzebia"
 ]
 
+
 #let's check if we have a right number of rows
 def test_rows_count():
     row_count = len(data.index)
